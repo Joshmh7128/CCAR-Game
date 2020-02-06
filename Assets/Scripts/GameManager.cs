@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -42,6 +43,30 @@ public class GameManager : MonoBehaviour
     public string[] MikeMessages;
     public string[] DevinMessages;
 
+    // here's a place to track the actual messages spawned in the game space
+    public List<GameObject> realMessagesA;
+    public List<GameObject> realMessagesB;
+    public List<GameObject> realMessagesC;
+    // here is our prefab object of player messages
+    public GameObject userMessagePrefab;
+    public GameObject npcMessagePrefab;
+    // canvas and parent are the same object
+    public Canvas messageCanvasA;
+    public Canvas messageCanvasB;
+    public Canvas messageCanvasC;
+    // list all our buttons
+    public Button canvasButtonA1;
+    public Button canvasButtonA2;
+    public Button canvasButtonA3;
+
+    public Button canvasButtonB1;
+    public Button canvasButtonB2;
+    public Button canvasButtonB3;
+
+    public Button canvasButtonC1;
+    public Button canvasButtonC2;
+    public Button canvasButtonC3;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,6 +86,8 @@ public class GameManager : MonoBehaviour
         // run this to determine which conversation we're using
         ConvoDataAssign();
         #endregion First Message Determination
+        // start our messages
+        StartCoroutine(MessageControlTime());
     }
 
     private void ConvoDataAssign()
@@ -145,11 +172,20 @@ public class GameManager : MonoBehaviour
     private void FixedUpdate()
     {
         // run our message controller to deliver messages to the player
+        //MessageController();
+    }
+
+    
+    IEnumerator MessageControlTime()
+    {
+        yield return new WaitForSeconds(2f);
         MessageController();
+        StartCoroutine(MessageControlTime());
     }
 
     // can the scripts continue to send messages to the player?
-    private bool continueSend = true;
+    public bool continueSend = true;
+    public bool messageSend = true;
 
     // we need to manage all of our messages in order to make the system function.
     void MessageController()
@@ -157,9 +193,9 @@ public class GameManager : MonoBehaviour
         // if we can continue to send messages, send them
         if (continueSend == true)
         {
-            SendMessageToPlayer(convoSlotA_MessageData, convoSlotA_MessageIndex);
-            SendMessageToPlayer(convoSlotB_MessageData, convoSlotB_MessageIndex);
-            SendMessageToPlayer(convoSlotC_MessageData, convoSlotC_MessageIndex);
+            SendMessageToPlayer(convoSlotA_MessageData, convoSlotA_MessageIndex, 1);
+            SendMessageToPlayer(convoSlotB_MessageData, convoSlotB_MessageIndex, 2);
+            SendMessageToPlayer(convoSlotC_MessageData, convoSlotC_MessageIndex, 3);
             // add one to each message index
             if (convoSlotA_MessageIndex < convoSlotA_MessageData.Length)
             {
@@ -178,19 +214,38 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void SendMessageToPlayer(string[] MessageData, int MessageID)
+    // get data from strings
+    public static string getBetween(string strSource, string strStart, string strEnd)
+    {
+        int Start, End;
+        if (strSource.Contains(strStart) && strSource.Contains(strEnd))
+        {
+            Start = strSource.IndexOf(strStart, 0) + strStart.Length;
+            End = strSource.IndexOf(strEnd, Start);
+            return strSource.Substring(Start, End - Start);
+        }
+        else
+        {
+            return "";
+        }
+    }
+    /// example on how to use for reference:
+    /// string text = "This is an example string and my data is here";
+    /// string data = getBetween(text, "my", "is");
+
+    void SendMessageToPlayer(string[] MessageData, int MessageID, int canvasID)
     {
         // check to see if the message in question exists so we don't get a reference exception, and the program can continue
         if (MessageID < MessageData.Length)
         // check to see if we require a response
-        if (MessageData[MessageID] == "RESPONSE")
+        if (MessageData[MessageID].Contains("RESPONSE"))
         {
             continueSend = false; // since we need a response, stop sending messages
-            PromptResponse(); // ask for a response
+            PromptResponse(canvasID, MessageData[MessageID]); // ask for a response
         }
         else
         {
-            if (continueSend == true) // if we can continue sending messages
+                if (continueSend == true) // if we can continue sending messages
                                       // send the message based on the provided information
                 if (MessageID > MessageData.Length)
                 {
@@ -198,21 +253,166 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log(MessageData[MessageID]);
+                        switch (canvasID)
+                        {
+                            case 1:
+                                    GameObject ourMessageA = Instantiate(npcMessagePrefab, messageCanvasA.transform); // get our message prefab
+                                    ourMessageA.GetComponent<MessageTemplate>().messageTypeID = canvasID;
+                                    ourMessageA.GetComponent<MessageTemplate>().messageText = MessageData[MessageID]; // set up our text
+                                break;
+
+                            case 2:
+                                    GameObject ourMessageB = Instantiate(npcMessagePrefab, messageCanvasB.transform); // get our message prefab
+                                    ourMessageB.GetComponent<MessageTemplate>().messageTypeID = canvasID;
+                                    ourMessageB.GetComponent<MessageTemplate>().messageText = MessageData[MessageID]; // set up our text
+                                break;
+
+                            case 3:
+                                    GameObject ourMessageC = Instantiate(npcMessagePrefab, messageCanvasC.transform); // get our message prefab
+                                    ourMessageC.GetComponent<MessageTemplate>().messageTypeID = canvasID;
+                                    ourMessageC.GetComponent<MessageTemplate>().messageText = MessageData[MessageID]; // set up our text
+                                break;
+                        }
                 }
         }
     }
 
-    void PromptResponse()
+    IEnumerator WaitSecondsMessageSend(int seconds)
     {
-        Debug.Log("RESPONSE REQUIRED");
-        // after the response is give, add 1 to the message ID. This is done in the SendMessageToPlayer Function
-        continueSend = true;
+        messageSend = false;
+        yield return new WaitForSeconds(seconds);
+        messageSend = true;
     }
 
-    void RunConvo()
+    public void PromptResponse(int CanvasID, string responses)
     {
+        Debug.Log("RESPONSE REQUIRED ON " + CanvasID);
+        switch (CanvasID)
+        {
+            case 1: // get the message text, set the text to the button, make a new message
+                canvasButtonA1.onClick.RemoveAllListeners();
+                string messageTextA1 = getBetween(responses, "ONESTART", "ONEFIN");
+                canvasButtonA1.transform.GetChild(0).GetComponent<Text>().text = messageTextA1;
+                canvasButtonA1.onClick.AddListener(() => InstantiateUserMessage(messageTextA1, CanvasID));
+                canvasButtonA1.onClick.AddListener(() => continueSend = true);
 
+                canvasButtonA2.onClick.RemoveAllListeners();
+                string messageTextA2 = getBetween(responses, "TWOSTART", "TWOFIN");
+                canvasButtonA2.transform.GetChild(0).GetComponent<Text>().text = messageTextA2;
+                canvasButtonA2.onClick.AddListener(() => InstantiateUserMessage(messageTextA2, CanvasID));
+                canvasButtonA2.onClick.AddListener(() => continueSend = true);
+
+                canvasButtonA3.onClick.RemoveAllListeners();
+                string messageTextA3 = getBetween(responses, "THREESTART", "THREEFIN");
+                canvasButtonA3.transform.GetChild(0).GetComponent<Text>().text = messageTextA3;
+                canvasButtonA3.onClick.AddListener(() => InstantiateUserMessage(messageTextA3, CanvasID));
+                canvasButtonA3.onClick.AddListener(() => continueSend = true);
+                break;
+
+            case 2:
+                canvasButtonB1.onClick.RemoveAllListeners();
+                string messageTextB1 = getBetween(responses, "ONESTBRT", "ONEFIN");
+                canvasButtonB1.transform.GetChild(0).GetComponent<Text>().text = messageTextB1;
+                canvasButtonB1.onClick.AddListener(() => InstantiateUserMessage(messageTextB1, CanvasID));
+                canvasButtonB1.onClick.AddListener(() => continueSend = true);
+
+                canvasButtonB2.onClick.RemoveAllListeners();
+                string messageTextB2 = getBetween(responses, "TWOSTBRT", "TWOFIN");
+                canvasButtonB2.transform.GetChild(0).GetComponent<Text>().text = messageTextB2;
+                canvasButtonB2.onClick.AddListener(() => InstantiateUserMessage(messageTextB2, CanvasID));
+                canvasButtonB2.onClick.AddListener(() => continueSend = true);
+
+                canvasButtonB3.onClick.RemoveAllListeners();
+                string messageTextB3 = getBetween(responses, "THREESTBRT", "THREEFIN");
+                canvasButtonB3.transform.GetChild(0).GetComponent<Text>().text = messageTextB3;
+                canvasButtonB3.onClick.AddListener(() => InstantiateUserMessage(messageTextB3, CanvasID));
+                canvasButtonB3.onClick.AddListener(() => continueSend = true);
+                break;
+
+            case 3:
+                canvasButtonC1.onClick.RemoveAllListeners();
+                string messageTextC1 = getBetween(responses, "ONESTBRT", "ONEFIN");
+                canvasButtonC1.transform.GetChild(0).GetComponent<Text>().text = messageTextC1;
+                canvasButtonC1.onClick.AddListener(() => InstantiateUserMessage(messageTextC1, CanvasID));
+                canvasButtonC1.onClick.AddListener(() => continueSend = true);
+
+                canvasButtonC2.onClick.RemoveAllListeners();
+                string messageTextC2 = getBetween(responses, "TWOSTBRT", "TWOFIN");
+                canvasButtonC2.transform.GetChild(0).GetComponent<Text>().text = messageTextC2;
+                canvasButtonC2.onClick.AddListener(() => InstantiateUserMessage(messageTextC2, CanvasID));
+                canvasButtonC2.onClick.AddListener(() => continueSend = true);
+
+                canvasButtonC3.onClick.RemoveAllListeners();
+                string messageTextC3 = getBetween(responses, "THREESTBRT", "THREEFIN");
+                canvasButtonC3.transform.GetChild(0).GetComponent<Text>().text = messageTextC3;
+                canvasButtonC3.onClick.AddListener(() => InstantiateUserMessage(messageTextC3, CanvasID));
+                canvasButtonC3.onClick.AddListener(() => continueSend = true);
+                break;
+        }
+
+        // after the response is give, add 1 to the message ID. This is done in the SendMessageToPlayer Function
+        //continueSend = true;
+    }
+
+    public void InstantiateUserMessage(string messageText, int canvasID)
+    {
+        if (continueSend == false)
+        switch (canvasID)
+        {
+            case 1:
+                GameObject ourMessageA = Instantiate(userMessagePrefab, messageCanvasA.transform);
+                ourMessageA.GetComponent<MessageTemplate>().messageTypeID = canvasID;
+                ourMessageA.GetComponent<MessageTemplate>().messageText = messageText;
+                    canvasButtonA1.transform.GetChild(0).GetComponent<Text>().text = "";
+                    canvasButtonA2.transform.GetChild(0).GetComponent<Text>().text = "";
+                    canvasButtonA3.transform.GetChild(0).GetComponent<Text>().text = "";
+                break;
+
+            case 2:
+                GameObject ourMessageB = Instantiate(userMessagePrefab, messageCanvasB.transform);
+                ourMessageB.GetComponent<MessageTemplate>().messageTypeID = canvasID;
+                ourMessageB.GetComponent<MessageTemplate>().messageText = messageText;
+                    canvasButtonB1.transform.GetChild(0).GetComponent<Text>().text = "";
+                    canvasButtonB2.transform.GetChild(0).GetComponent<Text>().text = "";
+                    canvasButtonB3.transform.GetChild(0).GetComponent<Text>().text = "";
+                    break;
+
+            case 3:
+                GameObject ourMessageC = Instantiate(userMessagePrefab, messageCanvasC.transform);
+                ourMessageC.GetComponent<MessageTemplate>().messageTypeID = canvasID;
+                ourMessageC.GetComponent<MessageTemplate>().messageText = messageText;
+                    canvasButtonC1.transform.GetChild(0).GetComponent<Text>().text = "";
+                    canvasButtonC2.transform.GetChild(0).GetComponent<Text>().text = "";
+                    canvasButtonC3.transform.GetChild(0).GetComponent<Text>().text = "";
+                    break;
+        }
+    }
+
+    public void AdvanceMessages(int messageTypeID) // move all messages up one message height
+    {   // switch which message we're moving up
+        switch (messageTypeID)
+        { 
+            case 1:
+                foreach (GameObject message in realMessagesA)
+                {
+                    message.GetComponent<MessageTemplate>().RaiseMessage();
+                }
+                break;
+
+            case 2:
+                foreach (GameObject message in realMessagesB)
+                {
+                    message.GetComponent<MessageTemplate>().RaiseMessage();
+                }
+                break;
+
+            case 3:
+                foreach (GameObject message in realMessagesC)
+                {
+                    message.GetComponent<MessageTemplate>().RaiseMessage();
+                }
+                break;
+        }
     }
 
 }
