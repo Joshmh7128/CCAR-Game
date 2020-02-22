@@ -105,6 +105,11 @@ public class GameManager : MonoBehaviour
     bool Panel2State = false;
     bool Panel3State = false;
 
+    // check to see if our conversations are complete or not
+    public bool ConvoA_Complete = false;
+    public bool ConvoB_Complete = false;
+    public bool ConvoC_Complete = false;
+
     void AnimatePanel(int Convo)
     {
         if (Convo == 1)
@@ -259,6 +264,13 @@ public class GameManager : MonoBehaviour
             {
                 convoSlotA_MessageIndex += 1;
             }
+
+            // if we have reached the end of the entire message log
+            if (convoSlotA_MessageIndex >= convoSlotA_MessageData.Length)
+            {
+                //Debug.Log("Conversation Complete.");
+                ConvoA_Complete = true;
+            }
         }
 
         // if we can continue to send messages, send them
@@ -271,6 +283,13 @@ public class GameManager : MonoBehaviour
             {
                 convoSlotB_MessageIndex += 1;
             }
+
+            // if we have reached the end of the entire message log
+            if (convoSlotB_MessageIndex >= convoSlotB_MessageData.Length)
+            {
+                //Debug.Log("Conversation Complete.");
+                ConvoB_Complete = true;
+            }
         }
 
         // if we can continue to send messages, send them
@@ -281,7 +300,14 @@ public class GameManager : MonoBehaviour
             // add one to the index
             if (convoSlotC_MessageIndex < convoSlotC_MessageData.Length)
             {
-                convoSlotC_MessageIndex += 1;
+                convoSlotC_MessageIndex += 1;   
+            }
+
+            // if we have reached the end of the entire message log
+            if (convoSlotC_MessageIndex >= convoSlotC_MessageData.Length)
+            {
+                //Debug.Log("Conversation Complete.");
+                ConvoC_Complete = true;
             }
         }
 
@@ -335,7 +361,7 @@ public class GameManager : MonoBehaviour
         {
             if (MessageID > MessageData.Length)
             {
-                Debug.Log("REQUESTED MESSAGE ID IS OUT OF BOUNDS OF ARRAY. NO MESSAGE WILL BE SENT");
+                //Debug.Log("REQUESTED MESSAGE ID IS OUT OF BOUNDS OF ARRAY. NO MESSAGE WILL BE SENT");
             }
             else
             {
@@ -381,7 +407,7 @@ public class GameManager : MonoBehaviour
 
     public void PromptResponse(int CanvasID, string responses)
     {
-        Debug.Log("RESPONSE REQUIRED ON " + CanvasID);
+        //Debug.Log("RESPONSE REQUIRED ON " + CanvasID);
         switch (CanvasID)
         {
             case 1: // get the message text, set the text to the button, make a new message
