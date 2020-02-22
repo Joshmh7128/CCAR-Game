@@ -257,7 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "NEXT \u2014> INSERT DATE"
+  m_Text: "NEXT \u2014> August 22, 2019"
 --- !u!222 &93423398
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -505,7 +505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &162493450
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1153,7 +1153,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &306154102
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1466,7 +1466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NAME HERE
+  m_Text: Chris
 --- !u!222 &336553026
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1686,18 +1686,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 54
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Conversation 1
+  m_Text: Alan
 --- !u!222 &445863365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1923,7 +1923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &531181806
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2053,8 +2053,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -610.2, y: -10.1}
-  m_SizeDelta: {x: -1142.1, y: 47.1}
+  m_AnchoredPosition: {x: -610.2, y: -14}
+  m_SizeDelta: {x: -1142.1, y: 109.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &646221085
 MonoBehaviour:
@@ -2186,7 +2186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &686269601
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2760,7 +2760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &822376119
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3279,7 +3279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1086034909
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3443,7 +3443,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PLACE DATE HERE
+  m_Text: '- August 19, 2019 -'
 --- !u!222 &1093499347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3700,18 +3700,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 49
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Conversation 3
+  m_Text: Chris
 --- !u!222 &1158530816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4015,13 +4015,14 @@ GameObject:
   - component: {fileID: 1268805963}
   - component: {fileID: 1268805962}
   - component: {fileID: 1268805961}
+  - component: {fileID: 1268805964}
   m_Layer: 5
   m_Name: Next Day Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1268805960
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4117,6 +4118,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268805959}
   m_CullTransparentMesh: 0
+--- !u!114 &1268805964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268805959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Story2Day2
+  ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,7 +4407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1370067034
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4852,18 +4867,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 51
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Conversation 2
+  m_Text: Bruce
 --- !u!222 &1535947625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5012,7 +5027,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NAME HERE
+  m_Text: Alan
 --- !u!222 &1607896230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5166,7 +5181,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NAME HERE
+  m_Text: Bruce
 --- !u!222 &1627105195
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5647,7 +5662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1772023517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5777,8 +5792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 612.1, y: -10.1}
-  m_SizeDelta: {x: -1140.7, y: 47.1}
+  m_AnchoredPosition: {x: 612.1, y: -3.6}
+  m_SizeDelta: {x: -1140.7, y: 156.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1815551175
 MonoBehaviour:
@@ -6271,7 +6286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1922352462
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6539,15 +6554,45 @@ MonoBehaviour:
   convoSlotA: 0
   convoSlotA_MessageData: []
   convoSlotA_MessageIndex: 0
-  convoSlotB: 0
+  convoSlotB: 1
   convoSlotB_MessageData: []
   convoSlotB_MessageIndex: 0
-  convoSlotC: 0
+  convoSlotC: 2
   convoSlotC_MessageData: []
   convoSlotC_MessageIndex: 0
-  ConversationSlot1: []
-  ConversationSlot2: []
-  ConversationSlot3: []
+  ConversationSlot1:
+  - "RESPONSE ONESTART Hey Alan I saw you in the emergency department. If you remember,
+    I\u2019m a recovery coach at CCAR ONEFIN TWOSTART Hey Alan I saw you in the emergency
+    department. If you remember, I\u2019m a recovery coach at CCAR TWOFIN THREESTART
+    Hey Alan I saw you in the emergency department. If you remember, I\u2019m a recovery
+    coach at CCAR THREEFIN"
+  - "I don\u2019t need any help I\u2019m fine."
+  - RESPONSE ONESTART You overdosed this evening. ONEFIN TWOSTART Your mother found
+    you on the bathroom floor. TWOFIN THREESTART You were found seriously hurt. THREEFIN
+  - "Yeah so what. I told you I don\u2019t need any help."
+  - 'CUSTOM '
+  - "There\u2019s nothing you can do for me anyways."
+  - CUSTOM
+  - k
+  ConversationSlot2:
+  - I need you to help me quit smoking.
+  - "RESPONSE ONESTART How can I help you quit smoking? ONEFIN TWOSTART I only help
+    people with real addictions. TWOFIN THREESTART here\u2019s no need for you to
+    quit smoking now. It\u2019s too early in your recovery. THREEFIN"
+  - "Dude I don\u2019t know where to start."
+  - "RESPONSE ONESTART Let me guide you towards some resources. ONEFIN TWOSTART Listen,
+    it\u2019s not easy. But you can do it. TWOFIN THREESTART I'm here to help. Let's
+    get started. THREEFIN"
+  ConversationSlot3:
+  - Can I call you?
+  - "I don\u2019t know what to do. I didn\u2019t think I would actually use your number
+    when you gave me your contact info at the hospital."
+  - "Please help me? I don\u2019t know who else I can talk to about this."
+  - RESPONSE ONESTART Of course! ONEFIN TWOSTART I think I can help. TWOFIN THREESTART
+    I'm here. THREEFIN
+  - Thank you so much. You said you have personal experience with this type of stuff?
+  - CUSTOM
+  - I'll call in 2 min
   realMessagesA: []
   realMessagesB: []
   realMessagesC: []

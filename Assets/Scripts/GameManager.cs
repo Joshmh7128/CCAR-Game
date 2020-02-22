@@ -25,8 +25,7 @@ public class GameManager : MonoBehaviour
         // it is important to note that only some conversations will work in some slots. I have
         // arranged them by the column below. From left to right, 1 2 3. This is done for optimization.
         // set 1 of our conversations
-        JessicaOne, JessicaTwo, JessicaThree,
-        Jeff,    Mike,  Devin
+        Messages1, Messages2, Messages3,
     };
 
     //list all the conversations that we are using, then store them per-slot
@@ -44,9 +43,9 @@ public class GameManager : MonoBehaviour
     public int convoSlotC_MessageIndex;
 
     // get all the messages in the conversation
-    public string[] JessicaMessagesDay1;
-    public string[] JessicaMessagesDay2;
-    public string[] JessicaMessagesDay3;
+    public string[] ConversationSlot1;
+    public string[] ConversationSlot2;
+    public string[] ConversationSlot3;
 
     // here's a place to track the actual messages spawned in the game space
     public List<GameObject> realMessagesA;
@@ -107,16 +106,19 @@ public class GameManager : MonoBehaviour
         // A section
         sendButtonA.onClick.AddListener( () => InstantiateUserMessage( customResponseInputA.text, 1) );
         sendButtonA.onClick.AddListener( () => continueSendA = true                                  );
+        sendButtonA.onClick.AddListener( () => customResponseInputA.text = ""                        );
         sendButtonA.onClick.AddListener( () => customResponseInputA.gameObject.SetActive(false)      );
         sendButtonA.onClick.AddListener( () => sendButtonA.gameObject.SetActive(false)               );
         // B section
-        sendButtonB.onClick.AddListener( () => InstantiateUserMessage( customResponseInputB.text, 2) );
+        sendButtonB.onClick.AddListener( () => InstantiateUserMessage( customResponseInputB.text, 2)  );
         sendButtonB.onClick.AddListener( () => continueSendB = true                                   );
+        sendButtonB.onClick.AddListener(() => customResponseInputB.text = ""                          );
         sendButtonB.onClick.AddListener( () => customResponseInputB.gameObject.SetActive(false)       );
         sendButtonB.onClick.AddListener( () => sendButtonB.gameObject.SetActive(false)                );
         // C section
         sendButtonC.onClick.AddListener( () => InstantiateUserMessage(customResponseInputC.text, 3)   );
         sendButtonC.onClick.AddListener( () => continueSendC = true                                   );
+        sendButtonC.onClick.AddListener(() => customResponseInputC.text = ""                          );
         sendButtonC.onClick.AddListener( () => customResponseInputC.gameObject.SetActive(false)       );
         sendButtonC.onClick.AddListener( () => sendButtonC.gameObject.SetActive(false)                );
 
@@ -194,22 +196,22 @@ public class GameManager : MonoBehaviour
         {
             // set the conversation message data based on the conversations we're using
             case (conversations)0:
-                convoSlotA_MessageData = JessicaMessagesDay1;
+                convoSlotA_MessageData = ConversationSlot1;
                 break;
             case (conversations)1:
-                convoSlotA_MessageData = JessicaMessagesDay1;
+                convoSlotA_MessageData = ConversationSlot2;
                 break;
             case (conversations)2:
-                convoSlotA_MessageData = JessicaMessagesDay1;
+                convoSlotA_MessageData = ConversationSlot3;
                 break;
             case (conversations)3:
-                convoSlotA_MessageData = JessicaMessagesDay1;
+                convoSlotA_MessageData = ConversationSlot1;
                 break;
             case (conversations)4:
-                convoSlotA_MessageData = JessicaMessagesDay1;
+                convoSlotA_MessageData = ConversationSlot1;
                 break;
             case (conversations)5:
-                convoSlotA_MessageData = JessicaMessagesDay1;
+                convoSlotA_MessageData = ConversationSlot1;
                 break;
 
         }
@@ -218,22 +220,22 @@ public class GameManager : MonoBehaviour
         {
             // set the conversation message data based on the conversations we're using
             case (conversations)0:
-                convoSlotB_MessageData = JessicaMessagesDay1;
+                convoSlotB_MessageData = ConversationSlot1;
                 break;
             case (conversations)1:
-                convoSlotB_MessageData = JessicaMessagesDay1;
+                convoSlotB_MessageData = ConversationSlot2;
                 break;
             case (conversations)2:
-                convoSlotB_MessageData = JessicaMessagesDay1;
+                convoSlotB_MessageData = ConversationSlot3;
                 break;
             case (conversations)3:
-                convoSlotB_MessageData = JessicaMessagesDay1;
+                convoSlotB_MessageData = ConversationSlot1;
                 break;
             case (conversations)4:
-                convoSlotB_MessageData = JessicaMessagesDay1;
+                convoSlotB_MessageData = ConversationSlot1;
                 break;
             case (conversations)5:
-                convoSlotB_MessageData = JessicaMessagesDay1;
+                convoSlotB_MessageData = ConversationSlot1;
                 break;
 
         }
@@ -242,22 +244,22 @@ public class GameManager : MonoBehaviour
         {
             // set the conversation message data based on the conversations we're using
             case (conversations)0:
-                convoSlotC_MessageData = JessicaMessagesDay1;
+                convoSlotC_MessageData = ConversationSlot1;
                 break;
             case (conversations)1:
-                convoSlotC_MessageData = JessicaMessagesDay1;
+                convoSlotC_MessageData = ConversationSlot2;
                 break;
             case (conversations)2:
-                convoSlotC_MessageData = JessicaMessagesDay1;
+                convoSlotC_MessageData = ConversationSlot3;
                 break;
             case (conversations)3:
-                convoSlotC_MessageData = JessicaMessagesDay1;
+                convoSlotC_MessageData = ConversationSlot1;
                 break;
             case (conversations)4:
-                convoSlotC_MessageData = JessicaMessagesDay1;
+                convoSlotC_MessageData = ConversationSlot1;
                 break;
             case (conversations)5:
-                convoSlotC_MessageData = JessicaMessagesDay1;
+                convoSlotC_MessageData = ConversationSlot1;
                 break;
         }
     }
@@ -455,6 +457,10 @@ public class GameManager : MonoBehaviour
         switch (CanvasID)
         {
             case 1: // get the message text, set the text to the button, make a new message
+                canvasButtonA1.gameObject.SetActive(true);
+                canvasButtonA2.gameObject.SetActive(true);
+                canvasButtonA3.gameObject.SetActive(true);
+
                 canvasButtonA1.onClick.RemoveAllListeners();
                 string messageTextA1 = getBetween(responses, "ONESTART", "ONEFIN");
                 canvasButtonA1.transform.GetChild(0).GetComponent<Text>().text = messageTextA1;
@@ -475,6 +481,10 @@ public class GameManager : MonoBehaviour
                 break;
 
             case 2:
+                canvasButtonB1.gameObject.SetActive(true);
+                canvasButtonB2.gameObject.SetActive(true);
+                canvasButtonB3.gameObject.SetActive(true);
+
                 canvasButtonB1.onClick.RemoveAllListeners();
                 string messageTextB1 = getBetween(responses, "ONESTART", "ONEFIN");
                 canvasButtonB1.transform.GetChild(0).GetComponent<Text>().text = messageTextB1;
@@ -495,6 +505,10 @@ public class GameManager : MonoBehaviour
                 break;
 
             case 3:
+                canvasButtonC1.gameObject.SetActive(true);
+                canvasButtonC2.gameObject.SetActive(true);
+                canvasButtonC3.gameObject.SetActive(true);
+
                 canvasButtonC1.onClick.RemoveAllListeners();
                 string messageTextC1 = getBetween(responses, "ONESTART", "ONEFIN");
                 canvasButtonC1.transform.GetChild(0).GetComponent<Text>().text = messageTextC1;
@@ -552,30 +566,57 @@ public class GameManager : MonoBehaviour
         switch (canvasID)
         {
             case 1:
-                GameObject ourMessageA = Instantiate(userMessagePrefab, messageCanvasA.transform);
-                ourMessageA.GetComponent<MessageTemplate>().messageTypeID = canvasID;
-                ourMessageA.GetComponent<MessageTemplate>().messageText = messageText;
+                if (continueSendA == false)
+                {
+                    GameObject ourMessageA = Instantiate(userMessagePrefab, messageCanvasA.transform);
+                    ourMessageA.GetComponent<MessageTemplate>().messageTypeID = canvasID;
+                    ourMessageA.GetComponent<MessageTemplate>().messageText = messageText;
+
+                    // disable the button
+                    canvasButtonA1.gameObject.SetActive(false);
+                    canvasButtonA2.gameObject.SetActive(false);
+                    canvasButtonA3.gameObject.SetActive(false);
+
                     canvasButtonA1.transform.GetChild(0).GetComponent<Text>().text = "";
                     canvasButtonA2.transform.GetChild(0).GetComponent<Text>().text = "";
                     canvasButtonA3.transform.GetChild(0).GetComponent<Text>().text = "";
+                }
                 break;
 
             case 2:
-                GameObject ourMessageB = Instantiate(userMessagePrefab, messageCanvasB.transform);
-                ourMessageB.GetComponent<MessageTemplate>().messageTypeID = canvasID;
-                ourMessageB.GetComponent<MessageTemplate>().messageText = messageText;
+                if (continueSendB == false)
+                {
+                    GameObject ourMessageB = Instantiate(userMessagePrefab, messageCanvasB.transform);
+                    ourMessageB.GetComponent<MessageTemplate>().messageTypeID = canvasID;
+                    ourMessageB.GetComponent<MessageTemplate>().messageText = messageText;
+
+                    // disable the button
+                    canvasButtonB1.gameObject.SetActive(false);
+                    canvasButtonB2.gameObject.SetActive(false);
+                    canvasButtonB3.gameObject.SetActive(false);
+
                     canvasButtonB1.transform.GetChild(0).GetComponent<Text>().text = "";
                     canvasButtonB2.transform.GetChild(0).GetComponent<Text>().text = "";
                     canvasButtonB3.transform.GetChild(0).GetComponent<Text>().text = "";
+                }
                     break;
 
             case 3:
-                GameObject ourMessageC = Instantiate(userMessagePrefab, messageCanvasC.transform);
-                ourMessageC.GetComponent<MessageTemplate>().messageTypeID = canvasID;
-                ourMessageC.GetComponent<MessageTemplate>().messageText = messageText;
+                if (continueSendC == false)
+                {
+                    GameObject ourMessageC = Instantiate(userMessagePrefab, messageCanvasC.transform);
+                    ourMessageC.GetComponent<MessageTemplate>().messageTypeID = canvasID;
+                    ourMessageC.GetComponent<MessageTemplate>().messageText = messageText;
+
+                    // disable the button
+                    canvasButtonC1.gameObject.SetActive(false);
+                    canvasButtonC2.gameObject.SetActive(false);
+                    canvasButtonC3.gameObject.SetActive(false);
+
                     canvasButtonC1.transform.GetChild(0).GetComponent<Text>().text = "";
                     canvasButtonC2.transform.GetChild(0).GetComponent<Text>().text = "";
                     canvasButtonC3.transform.GetChild(0).GetComponent<Text>().text = "";
+                }
                     break;
         }
     }

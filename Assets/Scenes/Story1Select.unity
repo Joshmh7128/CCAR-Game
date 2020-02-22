@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 687968179}
   - component: {fileID: 687968178}
   - component: {fileID: 687968177}
+  - component: {fileID: 687968180}
   m_Layer: 5
   m_Name: Day 5
   m_TagString: Untagged
@@ -354,7 +355,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: -163}
+  m_AnchoredPosition: {x: -12.999996, y: -163}
   m_SizeDelta: {x: 204.5, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687968177
@@ -370,7 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -432,6 +433,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687968175}
   m_CullTransparentMesh: 0
+--- !u!114 &687968180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687968175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Story1Day5
+  ourButton: {fileID: 687968177}
 --- !u!1 &719730108
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +536,7 @@ GameObject:
   - component: {fileID: 726508814}
   - component: {fileID: 726508813}
   - component: {fileID: 726508812}
+  - component: {fileID: 726508815}
   m_Layer: 5
   m_Name: Day 6
   m_TagString: Untagged
@@ -545,7 +561,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 249, y: -163}
+  m_AnchoredPosition: {x: 286, y: -163}
   m_SizeDelta: {x: 204.5, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726508812
@@ -561,7 +577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -623,6 +639,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726508810}
   m_CullTransparentMesh: 0
+--- !u!114 &726508815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726508810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Story1Day6
+  ourButton: {fileID: 726508812}
 --- !u!1 &933598118
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,7 +687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 310}
+  m_AnchoredPosition: {x: 33, y: 310}
   m_SizeDelta: {x: 1658.7, y: 285.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &933598120
@@ -691,7 +721,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DAY 1 SELECT
+  m_Text: STORY 1 SELECT
 --- !u!222 &933598121
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1285,6 +1315,7 @@ GameObject:
   - component: {fileID: 1895249039}
   - component: {fileID: 1895249038}
   - component: {fileID: 1895249037}
+  - component: {fileID: 1895249040}
   m_Layer: 5
   m_Name: Day 4
   m_TagString: Untagged
@@ -1309,7 +1340,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -349, y: -163}
+  m_AnchoredPosition: {x: -312, y: -163}
   m_SizeDelta: {x: 204.5, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1895249037
@@ -1325,7 +1356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1387,6 +1418,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895249035}
   m_CullTransparentMesh: 0
+--- !u!114 &1895249040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895249035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Story1Day4
+  ourButton: {fileID: 1895249037}
 --- !u!1 &1960795194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,6 +1444,7 @@ GameObject:
   - component: {fileID: 1960795198}
   - component: {fileID: 1960795197}
   - component: {fileID: 1960795196}
+  - component: {fileID: 1960795199}
   m_Layer: 5
   m_Name: Day 1
   m_TagString: Untagged
@@ -1423,7 +1469,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -349, y: 36}
+  m_AnchoredPosition: {x: -312, y: 36}
   m_SizeDelta: {x: 204.5, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960795196
@@ -1439,7 +1485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1501,6 +1547,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960795194}
   m_CullTransparentMesh: 0
+--- !u!114 &1960795199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960795194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Story1Day1
+  ourButton: {fileID: 1960795196}
 --- !u!1 &2033528124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,6 +1573,7 @@ GameObject:
   - component: {fileID: 2033528128}
   - component: {fileID: 2033528127}
   - component: {fileID: 2033528126}
+  - component: {fileID: 2033528129}
   m_Layer: 5
   m_Name: Day 3
   m_TagString: Untagged
@@ -1537,7 +1598,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 249, y: 36}
+  m_AnchoredPosition: {x: 286, y: 36}
   m_SizeDelta: {x: 204.5, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2033528126
@@ -1553,7 +1614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1615,6 +1676,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033528124}
   m_CullTransparentMesh: 0
+--- !u!114 &2033528129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033528124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Story1Day3
+  ourButton: {fileID: 2033528126}
 --- !u!1 &2035901463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,6 +1768,7 @@ GameObject:
   - component: {fileID: 2127553679}
   - component: {fileID: 2127553678}
   - component: {fileID: 2127553677}
+  - component: {fileID: 2127553680}
   m_Layer: 5
   m_Name: Day 2
   m_TagString: Untagged
@@ -1717,7 +1793,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: 36}
+  m_AnchoredPosition: {x: -12.999996, y: 36}
   m_SizeDelta: {x: 204.5, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127553677
@@ -1733,7 +1809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1795,3 +1871,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127553675}
   m_CullTransparentMesh: 0
+--- !u!114 &2127553680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127553675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Story1Day2
+  ourButton: {fileID: 2127553677}

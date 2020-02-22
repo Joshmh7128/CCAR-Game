@@ -257,7 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "NEXT \u2014> INSERT DATE"
+  m_Text: "NEXT \u2014> September 21st, 2019"
 --- !u!222 &93423398
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -505,7 +505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &162493450
 RectTransform:
   m_ObjectHideFlags: 0
@@ -719,7 +719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 352.1}
+  m_AnchoredPosition: {x: 0, y: 329}
   m_SizeDelta: {x: 518.19, y: 97.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181222444
@@ -1153,7 +1153,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &306154102
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1466,7 +1466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NAME HERE
+  m_Text: Chris
 --- !u!222 &336553026
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1686,18 +1686,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 54
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Conversation 1
+  m_Text: Alan
 --- !u!222 &445863365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1743,9 +1743,9 @@ RectTransform:
   - {fileID: 822376119}
   - {fileID: 1922352462}
   - {fileID: 1086034909}
-  - {fileID: 1627105193}
   - {fileID: 1885626547}
   - {fileID: 1670001266}
+  - {fileID: 1627105193}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1923,7 +1923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &531181806
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2186,7 +2186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &686269601
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2318,7 +2318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 147.1}
+  m_AnchoredPosition: {x: 0, y: 804}
   m_SizeDelta: {x: 518.19, y: 97.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &733140302
@@ -2760,7 +2760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &822376119
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3106,7 +3106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 250.1}
+  m_AnchoredPosition: {x: 0, y: 680}
   m_SizeDelta: {x: 518.19, y: 97.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &964107043
@@ -3279,7 +3279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1086034909
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3443,7 +3443,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PLACE DATE HERE
+  m_Text: '- September 5, 2019 -'
 --- !u!222 &1093499347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3700,18 +3700,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 49
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 49
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Conversation 3
+  m_Text: Chris
 --- !u!222 &1158530816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4015,13 +4015,14 @@ GameObject:
   - component: {fileID: 1268805963}
   - component: {fileID: 1268805962}
   - component: {fileID: 1268805961}
+  - component: {fileID: 1268805964}
   m_Layer: 5
   m_Name: Next Day Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1268805960
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4117,6 +4118,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268805959}
   m_CullTransparentMesh: 0
+--- !u!114 &1268805964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268805959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Story2Day5
+  ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,7 +4407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1370067034
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4852,18 +4867,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 51
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Conversation 2
+  m_Text: Bruce
 --- !u!222 &1535947625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5012,7 +5027,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NAME HERE
+  m_Text: Alan
 --- !u!222 &1607896230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5128,7 +5143,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 447892081}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5166,7 +5181,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NAME HERE
+  m_Text: Bruce
 --- !u!222 &1627105195
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5284,7 +5299,7 @@ RectTransform:
   m_Children:
   - {fileID: 329107739}
   m_Father: {fileID: 447892081}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5647,7 +5662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1772023517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6035,7 +6050,7 @@ RectTransform:
   - {fileID: 1411819677}
   - {fileID: 155958753}
   m_Father: {fileID: 447892081}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6271,7 +6286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1922352462
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6539,13 +6554,24 @@ MonoBehaviour:
   convoSlotA: 0
   convoSlotA_MessageData: []
   convoSlotA_MessageIndex: 0
-  convoSlotB: 0
+  convoSlotB: 2
   convoSlotB_MessageData: []
   convoSlotB_MessageIndex: 0
-  convoSlotC: 0
+  convoSlotC: 1
   convoSlotC_MessageData: []
   convoSlotC_MessageIndex: 0
-  ConversationSlot1: []
+  ConversationSlot1:
+  - Thanks for calling.
+  - RESPONSE ONESTART I'm here for you! ONEFIN TWOSTART Anytime. TWOFIN THREESTART
+    You're welcome! THREEFIN
+  - I think I want to go to detox.
+  - RESPONSE ONESTART I think that's a good idea for you. ONEFIN TWOSTART Yes, you
+    definitely should. TWOFIN THREESTART That sounds like a good choice. THREEFIN
+  - Is the recovery process always supposed to be this tough?
+  - CUSTOM
+  - What was it like for you?
+  - "RESPONSE ONESTART It was tough for me. ONEFIN TWOSTART It was easy for me. TWOFIN
+    THREESTART It\u2019s not relevant. THREEFIN"
   ConversationSlot2: []
   ConversationSlot3: []
   realMessagesA: []
