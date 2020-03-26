@@ -4,5 +4,77 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/_MainMenu.unity
+    guid: 9fed322c8e97c92409f2fa8cb1c96460
+  - enabled: 1
+    path: Assets/Scenes/Story1Select.unity
+    guid: 21d7042cc27fd49458479707a2a6aa14
+  - enabled: 1
+    path: Assets/Scenes/Story2Select.unity
+    guid: 43d95a10611ff9a47a725bf284749f45
+  - enabled: 1
+    path: Assets/Scenes/Story3Select.unity
+    guid: 8dcff8bc68aefde4abb415546c474f8c
+  - enabled: 1
+    path: Assets/Scenes/_StorySelect.unity
+    guid: 6f39c04f882963643afabe34fca0aec5
+  - enabled: 1
+    path: Assets/Scenes/TestSceneOne.unity
+    guid: cd055f26510b4994fb54f1f886cda203
+  - enabled: 1
+    path: Assets/Scenes/Story 1/Story1Day1.unity
+    guid: b8f2a1e037965b846b8a93eb8eddd93a
+  - enabled: 1
+    path: Assets/Scenes/Story 1/Story1Day2.unity
+    guid: 2e0f68991d39baa4a9aec5c5ca861612
+  - enabled: 1
+    path: Assets/Scenes/Story 1/Story1Day3.unity
+    guid: 837163b2feb339145a5e4d363409a327
+  - enabled: 1
+    path: Assets/Scenes/Story 1/Story1Day4.unity
+    guid: 98d5d06b2ace470489b30119b405d5fc
+  - enabled: 1
+    path: Assets/Scenes/Story 1/Story1Day5.unity
+    guid: 6c2346d541bd06a4fbf5bb32579afa1d
+  - enabled: 1
+    path: Assets/Scenes/Story 1/Story1Day6.unity
+    guid: 8d59b5263d2735249a907a35cf41fded
+  - enabled: 1
+    path: Assets/Scenes/Story 1/Story1Day7.unity
+    guid: 59398415710ffec43a26fb5c5acc068a
+  - enabled: 1
+    path: Assets/Scenes/Story 2/Story2Day1.unity
+    guid: cb045a7acd71141489c7c59ba34f10ce
+  - enabled: 1
+    path: Assets/Scenes/Story 2/Story2Day2.unity
+    guid: 5687d9183475eaa4c91c8c5c165d6316
+  - enabled: 1
+    path: Assets/Scenes/Story 2/Story2Day3.unity
+    guid: ddcefc9f1698ae54686da615576a8f43
+  - enabled: 1
+    path: Assets/Scenes/Story 2/Story2Day4.unity
+    guid: 88c4848c1fb768744afeeb3d1bd8f41c
+  - enabled: 1
+    path: Assets/Scenes/Story 2/Story2Day5.unity
+    guid: 050ffe6d20bdb0843b6e1724d178187b
+  - enabled: 1
+    path: Assets/Scenes/Story 3/Story3Day1.unity
+    guid: 08b8f259794362d4a858acdf54d05ff4
+  - enabled: 1
+    path: Assets/Scenes/Story 3/Story3Day2.unity
+    guid: 815637298cb7fb04ba0f4b1da8eb43e3
+  - enabled: 1
+    path: Assets/Scenes/Story 3/Story3Day3.unity
+    guid: e1cd6e0d40efdb842a9d3da6039cbe94
+  - enabled: 1
+    path: Assets/Scenes/Story 3/Story3Day4.unity
+    guid: 954dbb05b989ed347bdd068f0e37d93e
+  - enabled: 1
+    path: Assets/Scenes/Story 3/Story3Day5.unity
+    guid: a91cf0c1eb843384187145282acfe581
+  - enabled: 1
+    path: Assets/Scenes/Story 3/Story3Day6.unity
+    guid: 8ea74aa52c4fa994a95061141c1d90d2
   m_configObjects: {}
