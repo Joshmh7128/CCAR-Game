@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     /// the game itself. Upon completion, optimization will take place, and I will assign pointers / privacy.
     /// </summary>
 
+    #region /// Declaration of Variables
     // track the stage the story is in so we know what conversations to use
     public int Stage;
 
@@ -84,6 +85,11 @@ public class GameManager : MonoBehaviour
     public Button sendButtonB;
     public Button sendButtonC;
 
+    // conversation over game object prefab
+    public GameObject conversationOver;
+
+    #endregion
+
     // Start is called before the first frame update
     void Start()
     {
@@ -133,6 +139,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(MessageControlTime());
     }
 
+    #region /// Panel State and Convo Complete Declarations
     // set our states for our panels. true = on screen, false = off screen.
     bool Panel1State = false;
     bool Panel2State = false;
@@ -142,6 +149,12 @@ public class GameManager : MonoBehaviour
     public bool ConvoA_Complete = false;
     public bool ConvoB_Complete = false;
     public bool ConvoC_Complete = false;
+
+    bool finalMessageSendA = false;
+    bool finalMessageSendB = false;
+    bool finalMessageSendC = false;
+
+    #endregion
 
     void AnimatePanel(int Convo)
     {
@@ -266,8 +279,30 @@ public class GameManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // run our message controller to deliver messages to the player
-        //MessageController();
+        // check to see if the conversation is finished, if it is, instantiate an object that says the conversation is complete
+        if (ConvoA_Complete == true && finalMessageSendA == false)
+        {
+            // instantiate the object
+            Instantiate(conversationOver, messageCanvasA.transform);
+            // set our message to true
+            finalMessageSendA = true;
+        }
+
+        if (ConvoB_Complete == true && finalMessageSendB == false)
+        {
+            // instantiate the object
+            Instantiate(conversationOver, messageCanvasB.transform);
+            // set our message to true
+            finalMessageSendB = true;
+        }
+
+        if (ConvoC_Complete == true && finalMessageSendC == false)
+        {
+            // instantiate the object
+            Instantiate(conversationOver, messageCanvasC.transform);
+            // set our message to true
+            finalMessageSendC = true;
+        }
     }
     
     IEnumerator MessageControlTime()
@@ -277,11 +312,13 @@ public class GameManager : MonoBehaviour
         StartCoroutine(MessageControlTime());
     }
 
+    #region /// Continue Send Variables
     // can the scripts continue to send messages to the player?
     public bool continueSendA = true;
     public bool continueSendB = true;
     public bool continueSendC = true;
     public bool messageSend = true;
+    #endregion
 
     // we need to manage all of our messages in order to make the system function.
     void MessageController()
