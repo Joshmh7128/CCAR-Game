@@ -28,39 +28,47 @@ public class GameManager : MonoBehaviour
         // set 1 of our conversations
         Messages1, Messages2, Messages3,
     };
-
+    [Header("~~ Conversation 1 Metadata ~~")]
     //list all the conversations that we are using, then store them per-slot
     public conversations convoSlotA;
     public string[] convoSlotA_MessageData;
     // which message are we on?
     public int convoSlotA_MessageIndex;
+    [Header("~~ Conversation 2 Metadata ~~")]
     public conversations convoSlotB;
     public string[] convoSlotB_MessageData;
     // which message are we on?
     public int convoSlotB_MessageIndex;
+    [Header("~~ Conversation 3 Metadata ~~")]
     public conversations convoSlotC;
     public string[] convoSlotC_MessageData;
     // which message are we on?
     public int convoSlotC_MessageIndex;
-
     // get all the messages in the conversation
+    [Header("~~ Conversation 1 Messages ~~")]
     public string[] ConversationSlot1;
+    [Header("~~ Conversation 2 Messages ~~")]
     public string[] ConversationSlot2;
+    [Header("~~ Conversation 3 Messages ~~")]
     public string[] ConversationSlot3;
-
+    [Header("~~ Conversations loaded into the game's RAM for usage ~~")]
     // here's a place to track the actual messages spawned in the game space
     public List<GameObject> realMessagesA;
     public List<GameObject> realMessagesB;
     public List<GameObject> realMessagesC;
+    [Header("~~ User and Response Message Prefabs ~~")]
     // here is our prefab object of player messages
     public GameObject userMessagePrefab;
     public GameObject npcMessagePrefab;
+    [Header("~~ Response Button Text Size ~~")]
     // font size for all response button messages
     public int responseButtonMessageSize;
+    [Header("~~ Message Canvases ~~")]
     // canvas and parent are the same object
     public Canvas messageCanvasA;
     public Canvas messageCanvasB;
     public Canvas messageCanvasC;
+    [Header("~~ Response buttons ~~")]
     // list all our buttons
     public Button canvasButtonA1;
     public Button canvasButtonA2;
@@ -73,7 +81,7 @@ public class GameManager : MonoBehaviour
     public Button canvasButtonC1;
     public Button canvasButtonC2;
     public Button canvasButtonC3;
-
+    [Header("~~ Message Menu Buttons ~~")]
     // main menu buttons
     public Button mainMenuButton1;
     public Button mainMenuButton2;
@@ -81,12 +89,12 @@ public class GameManager : MonoBehaviour
     public Button mainMenuXButton1;
     public Button mainMenuXButton2;
     public Button mainMenuXButton3;
-
+    [Header("~~ Message Send Buttons ~~")]
     // other buttons
     public Button sendButtonA;
     public Button sendButtonB;
     public Button sendButtonC;
-
+    [Header("~~ Conversation Over Prefab ~~")]
     // conversation over game object prefab
     public GameObject conversationOver;
 

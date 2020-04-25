@@ -257,7 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Story Complete. Click to return.
+  m_Text: Proceed to Next Day
 --- !u!222 &93423398
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6739,6 +6739,7 @@ MonoBehaviour:
     type: 3}
   npcMessagePrefab: {fileID: 1168396635260141063, guid: a1b99f8ad300e3e4e8eb4338221464bd,
     type: 3}
+  responseButtonMessageSize: 18
   messageCanvasA: {fileID: 2018738898}
   messageCanvasB: {fileID: 447892084}
   messageCanvasC: {fileID: 1845910136}
