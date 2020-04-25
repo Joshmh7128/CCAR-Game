@@ -38,7 +38,7 @@ public class MessageTemplate : MonoBehaviour
 
     public void RaiseMessage() // use to raise the message up
     {
-        Vector3 targetPos = new Vector3(transform.position.x, transform.position.y + 65f, transform.position.z); // setup our target position
+        Vector3 targetPos = new Vector3(transform.position.x, transform.position.y + 95f, transform.position.z); // setup our target position
         transform.position = Vector3.Lerp(transform.position, targetPos, 2f); // lerp to that target pos
     }
 }

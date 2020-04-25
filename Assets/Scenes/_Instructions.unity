@@ -145,7 +145,7 @@ RectTransform:
   m_Children:
   - {fileID: 754506992}
   m_Father: {fileID: 908921607}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -400,84 +400,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754506991}
   m_CullTransparentMesh: 0
---- !u!1 &797280349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 797280350}
-  - component: {fileID: 797280352}
-  - component: {fileID: 797280351}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &797280350
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 797280349}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 908921607}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -485.2, y: -7}
-  m_SizeDelta: {x: 688.3, y: 563.1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &797280351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 797280349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 16
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1.03
-  m_Text: "Background Image Credits, Edits have been made to all images used. All
-    information about the images can be found at each of the links below.\n\nhttps://ccsearch.creativecommons.org/photos/14a6adb4-4a58-424c-8d7f-05da2568e660\r\nhttps://ccsearch.creativecommons.org/photos/b6227a1f-05dc-4e4e-8657-ff53691c9886\r\nhttps://ccsearch.creativecommons.org/photos/b7e87a31-752f-4236-b2ca-6743f041c2d4\r\nhttps://ccsearch.creativecommons.org/photos/3acca27c-e060-4597-b3b2-7e7729fc1ff1\r\nhttps://ccsearch.creativecommons.org/photos/05a5f327-74b7-4199-9c70-ade6be680b9a\r\nhttps://ccsearch.creativecommons.org/photos/478df449-04a0-4f0e-8d94-d0986cc9b60c\r\nhttps://ccsearch.creativecommons.org/photos/8aa5d4d6-38fa-41f5-a7e7-fc5b1b3d5993\r\nhttps://ccsearch.creativecommons.org/photos/3d373264-24b7-46af-b2e1-9c43af15eccd\r\nhttps://ccsearch.creativecommons.org/photos/105b5a13-c552-407a-9ccf-92e8ee3a61f9\r\nhttps://ccsearch.creativecommons.org/photos/acc16349-9c6e-4760-bb87-01ad0a3bfade\r\nhttps://ccsearch.creativecommons.org/photos/47b8d93c-33ca-41b1-bbcc-85dcf788e101\r\nhttps://ccsearch.creativecommons.org/photos/f152781e-24a7-45ce-b36b-87f31b21af61\r\nhttps://ccsearch.creativecommons.org/photos/3ceee551-2f4e-49a4-b168-ed598bb44219\r\nhttps://ccsearch.creativecommons.org/photos/5f59bd7b-6464-4ae1-bc7a-0ec41467f4c6\r\nhttps://ccsearch.creativecommons.org/photos/e5e376e6-d96f-4f74-93cc-87ba9b415a37\r\nhttps://ccsearch.creativecommons.org/photos/3f05abbd-c27c-4dcb-a004-d0afe1ec2a26\r\nhttps://ccsearch.creativecommons.org/photos/b508d4a0-a993-4185-8565-3ece982f0877\r\nhttps://ccsearch.creativecommons.org/photos/36d1bc06-1fe8-4253-adc5-0d391403341a"
---- !u!222 &797280352
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 797280349}
-  m_CullTransparentMesh: 0
 --- !u!1 &908921603
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,8 +490,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 90}
   m_LocalScale: {x: 0.010070493, y: 0.010070493, z: 0.010070493}
   m_Children:
-  - {fileID: 1818776795}
-  - {fileID: 797280350}
   - {fileID: 312328890}
   - {fileID: 1630708185}
   m_Father: {fileID: 0}
@@ -755,12 +675,12 @@ RectTransform:
   m_LocalScale: {x: 0.999951, y: 0.999951, z: 0.999951}
   m_Children: []
   m_Father: {fileID: 908921607}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 439, y: 0}
-  m_SizeDelta: {x: 864.2, y: 401.9}
+  m_AnchoredPosition: {x: 13, y: -16}
+  m_SizeDelta: {x: 1632, y: 615.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1630708186
 MonoBehaviour:
@@ -787,14 +707,18 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 255
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.03
-  m_Text: Special Thanks to Kevin Thompson, Phil Valentine, Travis Grosser, and everybody
-    at the Connecticut Community for Addiction Recovery who made this game possible.
+  m_Text: This game was built for new or aspiring recovery coaches. It simulates conversations
+    between recovery coaches and recoverees. You will act as the recovery coach and
+    respond to your recoverees as needed. Each game consists of three separate conversations
+    with three different recoverees over a few weeks. You can choose from pre-written
+    responses, or write your own. The choices you make in this game WILL affect the
+    outcomes of your recoverees and their responses.
 --- !u!222 &1630708187
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -802,81 +726,4 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630708184}
-  m_CullTransparentMesh: 0
---- !u!1 &1818776794
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1818776795}
-  - component: {fileID: 1818776797}
-  - component: {fileID: 1818776796}
-  m_Layer: 5
-  m_Name: Credits
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1818776795
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818776794}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 908921607}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -456}
-  m_SizeDelta: {x: 1798.2, y: 285.3}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1818776796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818776794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 31
-    m_FontStyle: 2
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 138
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Programming and Design by Josh Hirshfield, Written by Yasmine Shwayhat
---- !u!222 &1818776797
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818776794}
   m_CullTransparentMesh: 0

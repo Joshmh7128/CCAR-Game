@@ -3524,7 +3524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- August 5, 2019 -'
+  m_Text: '- August 5 -'
 --- !u!222 &1093499347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6758,7 +6758,8 @@ MonoBehaviour:
   sendButtonA: {fileID: 1126724171}
   sendButtonB: {fileID: 1670001269}
   sendButtonC: {fileID: 952988057}
-  conversationOver: {fileID: 0}
+  conversationOver: {fileID: 297497975966306768, guid: 0e9ba220e3b48a547a8d15165f5492ef,
+    type: 3}
   ConvoA_Complete: 0
   ConvoB_Complete: 0
   ConvoC_Complete: 0

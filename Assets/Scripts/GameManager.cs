@@ -55,6 +55,8 @@ public class GameManager : MonoBehaviour
     // here is our prefab object of player messages
     public GameObject userMessagePrefab;
     public GameObject npcMessagePrefab;
+    // font size for all response button messages
+    public int responseButtonMessageSize;
     // canvas and parent are the same object
     public Canvas messageCanvasA;
     public Canvas messageCanvasB;
@@ -93,6 +95,17 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // setup all our font sizes for the response buttons
+        canvasButtonA1.GetComponentInChildren<Text>().fontSize = responseButtonMessageSize;
+        canvasButtonA2.GetComponentInChildren<Text>().fontSize = responseButtonMessageSize;
+        canvasButtonA3.GetComponentInChildren<Text>().fontSize = responseButtonMessageSize;
+        canvasButtonB1.GetComponentInChildren<Text>().fontSize = responseButtonMessageSize;
+        canvasButtonB2.GetComponentInChildren<Text>().fontSize = responseButtonMessageSize;
+        canvasButtonB3.GetComponentInChildren<Text>().fontSize = responseButtonMessageSize;
+        canvasButtonC1.GetComponentInChildren<Text>().fontSize = responseButtonMessageSize;
+        canvasButtonC2.GetComponentInChildren<Text>().fontSize = responseButtonMessageSize;
+        canvasButtonC3.GetComponentInChildren<Text>().fontSize = responseButtonMessageSize;
+
         // manage our main menu
         mainMenuButton1.onClick.AddListener( () => AnimatePanel(1)    );
         mainMenuButton1.onClick.AddListener( () => Panel1State = true );
