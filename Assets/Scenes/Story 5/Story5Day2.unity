@@ -257,7 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Story Complete. Return to Main Menu.
+  m_Text: Proceed to Next Day
 --- !u!222 &93423398
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -338,85 +338,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123187772}
   m_CullTransparentMesh: 0
---- !u!1 &150711562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 150711563}
-  - component: {fileID: 150711564}
-  m_Layer: 0
-  m_Name: 17
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &150711563
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150711562}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1087, y: 0, z: 0}
-  m_LocalScale: {x: 618.30725, y: 618.30725, z: 618.30725}
-  m_Children: []
-  m_Father: {fileID: 862938583}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &150711564
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150711562}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 6e2346508fe3a264984c6c020d82a70e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.56, y: 1.92}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &155958752
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,7 +719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 346}
+  m_AnchoredPosition: {x: 0, y: 352.1}
   m_SizeDelta: {x: 581.6, y: 97.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181222444
@@ -1545,7 +1466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Carl
+  m_Text: Deborah
 --- !u!222 &336553026
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1776,7 +1697,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Matt
+  m_Text: Mohammed
 --- !u!222 &445863365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2397,7 +2318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 649}
+  m_AnchoredPosition: {x: 0, y: 246}
   m_SizeDelta: {x: 581.6, y: 97.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &733140302
@@ -2475,6 +2396,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733140300}
   m_CullTransparentMesh: 0
+--- !u!1 &769582672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 769582673}
+  - component: {fileID: 769582674}
+  m_Layer: 0
+  m_Name: 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &769582673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769582672}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1146, y: 0, z: 0}
+  m_LocalScale: {x: 665.69385, y: 665.69385, z: 665.69385}
+  m_Children: []
+  m_Father: {fileID: 862938583}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &769582674
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769582672}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 363bbea630d897a49b7f8f28d325920d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 1.92}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &787088488
 GameObject:
   m_ObjectHideFlags: 0
@@ -2967,8 +2967,8 @@ RectTransform:
   m_Children:
   - {fileID: 1815551174}
   - {fileID: 646221084}
-  - {fileID: 150711563}
-  - {fileID: 1253971169}
+  - {fileID: 769582673}
+  - {fileID: 1626877455}
   m_Father: {fileID: 293530377}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3187,7 +3187,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 222}
+  m_AnchoredPosition: {x: 0, y: 962}
   m_SizeDelta: {x: 581.6, y: 97.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &964107043
@@ -3524,7 +3524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- October 19th -'
+  m_Text: '- October 15 -'
 --- !u!222 &1093499347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3792,7 +3792,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Carl
+  m_Text: Deborah
 --- !u!222 &1158530816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4084,85 +4084,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238487103}
   m_CullTransparentMesh: 0
---- !u!1 &1253971168
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1253971169}
-  - component: {fileID: 1253971170}
-  m_Layer: 0
-  m_Name: 17 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1253971169
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253971168}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1087, y: 0, z: 0}
-  m_LocalScale: {x: 618.30725, y: 618.30725, z: 618.30725}
-  m_Children: []
-  m_Father: {fileID: 862938583}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1253971170
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253971168}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 6e2346508fe3a264984c6c020d82a70e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.56, y: 1.92}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1268805959
 GameObject:
   m_ObjectHideFlags: 0
@@ -4290,7 +4211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: _MainMenu
+  SceneName: Story5Day3
   ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
@@ -5038,7 +4959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Daisy
+  m_Text: Jayleen
 --- !u!222 &1535947625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5187,7 +5108,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Matt
+  m_Text: Mohammed
 --- !u!222 &1607896230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5273,6 +5194,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616945607}
   m_CullTransparentMesh: 0
+--- !u!1 &1626877454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1626877455}
+  - component: {fileID: 1626877456}
+  m_Layer: 0
+  m_Name: 12 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1626877455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626877454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1150, y: 0, z: 0}
+  m_LocalScale: {x: 665.69385, y: 665.69385, z: 665.69385}
+  m_Children: []
+  m_Father: {fileID: 862938583}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1626877456
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626877454}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 363bbea630d897a49b7f8f28d325920d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 1.92}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1627105192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,7 +5341,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Daisy
+  m_Text: Jayleen
 --- !u!222 &1627105195
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6721,17 +6721,38 @@ MonoBehaviour:
   convoSlotC_MessageData: []
   convoSlotC_MessageIndex: 0
   ConversationSlot1:
-  - "I know I haven\u2019t known you long but I thought I should tell you."
-  - " I\u2019m going to travel for a while. "
-  - Headed on a solo trip through Southeast Asia and then a few months in Europe.
-  - "Thanks for your support. I\u2019m excited to explore the world! "
+  - I have another problem.
+  - "RESPONSE ONESTART You\u2019re always so cryptic in your texts.  ONEFIN  TWOSTART
+    \ Again??  TWOFIN  THREESTART  How can I help?  THREEFIN"
+  - "Well, I quit drinking a year ago. I\u2019ve been successful due to mostly being
+    able to avoid places and situations where alcohol will be present."
+  - "RESPONSE ONESTART Yes I remember. ONEFIN  TWOSTART   I\u2019m glad you\u2019ve
+    been successful in your recovery so far. TWOFIN  THREESTART  You've done very
+    well.  THREEFIN"
+  - "And I\u2019ve found another job besides Walmart that pays much better and works
+    better with the hours of my other job."
+  - "RESPONSE ONESTART What\u2019s this new job option?  ONEFIN  TWOSTART  This sounds
+    like a good opportunity! TWOFIN  THREESTART  What\u2019s the issue?  THREEFIN"
+  - "Well, it\u2019s a job as a bartender."
   - CUSTOM
-  ConversationSlot2:
-  - "I appreciate all your support. Moving in with my girlfriend is no longer an option
-    because she\u2019s in prison now."
-  - "RESPONSE ONESTART What happened? ONEFIN TWOSTART How's your recovery? TWOFIN
-    THREESTART  I knew there was something about your girlfriend\u2026 THREEFIN"
-  ConversationSlot3: []
+  - I thought you might say that.
+  - "I haven\u2019t accepted anything yet. I\u2019m just thinking about it."
+  - Let me take some more time to think it over.
+  ConversationSlot2: []
+  ConversationSlot3:
+  - My son and granddaughter have officially moved in!
+  - "RESPONSE ONESTART That\u2019s great!   ONEFIN  TWOSTART  How are you feeling
+    about that?  TWOFIN  THREESTART  Is your son acting normally?  THREEFIN"
+  - "Everyone seems very happy and we\u2019re excited that we\u2019ll get to see more
+    of each other."
+  - "As a precaution, to limit temptations, I\u2019ve disposed of all old and unneeded
+    medications from the medicine cabinet at the safe disposal box at the police station."
+  - "RESPONSE ONESTART I\u2019m glad you did that.  ONEFIN  TWOSTART  What made you
+    decide to do that now? TWOFIN  THREESTART  Did something specific prompt you to
+    do that? THREEFIN"
+  - "I\u2019ve spent a lot of time praying recently. It\u2019s what God would want
+    for my son."
+  - CUSTOM
   realMessagesA: []
   realMessagesB: []
   realMessagesC: []

@@ -257,7 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Story Complete. Return to Main Menu.
+  m_Text: Proceed to Next Day
 --- !u!222 &93423398
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -338,85 +338,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123187772}
   m_CullTransparentMesh: 0
---- !u!1 &150711562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 150711563}
-  - component: {fileID: 150711564}
-  m_Layer: 0
-  m_Name: 17
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &150711563
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150711562}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1087, y: 0, z: 0}
-  m_LocalScale: {x: 618.30725, y: 618.30725, z: 618.30725}
-  m_Children: []
-  m_Father: {fileID: 862938583}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &150711564
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150711562}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 6e2346508fe3a264984c6c020d82a70e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.56, y: 1.92}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &155958752
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,7 +719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 346}
+  m_AnchoredPosition: {x: 0, y: 352.1}
   m_SizeDelta: {x: 581.6, y: 97.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181222444
@@ -1545,7 +1466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Carl
+  m_Text: Deborah
 --- !u!222 &336553026
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1776,7 +1697,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Matt
+  m_Text: Mohammed
 --- !u!222 &445863365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2397,7 +2318,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 649}
+  m_AnchoredPosition: {x: 0, y: 147.1}
   m_SizeDelta: {x: 581.6, y: 97.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &733140302
@@ -2475,6 +2396,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733140300}
   m_CullTransparentMesh: 0
+--- !u!1 &769582672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 769582673}
+  - component: {fileID: 769582674}
+  m_Layer: 0
+  m_Name: 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &769582673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769582672}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1146, y: 0, z: 0}
+  m_LocalScale: {x: 665.69385, y: 665.69385, z: 665.69385}
+  m_Children: []
+  m_Father: {fileID: 862938583}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &769582674
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769582672}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 363bbea630d897a49b7f8f28d325920d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 1.92}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &787088488
 GameObject:
   m_ObjectHideFlags: 0
@@ -2967,8 +2967,8 @@ RectTransform:
   m_Children:
   - {fileID: 1815551174}
   - {fileID: 646221084}
-  - {fileID: 150711563}
-  - {fileID: 1253971169}
+  - {fileID: 769582673}
+  - {fileID: 1626877455}
   m_Father: {fileID: 293530377}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3187,7 +3187,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 222}
+  m_AnchoredPosition: {x: 0, y: 250.1}
   m_SizeDelta: {x: 581.6, y: 97.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &964107043
@@ -3524,7 +3524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- October 19th -'
+  m_Text: '- October 12 -'
 --- !u!222 &1093499347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3792,7 +3792,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Carl
+  m_Text: Deborah
 --- !u!222 &1158530816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4084,85 +4084,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238487103}
   m_CullTransparentMesh: 0
---- !u!1 &1253971168
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1253971169}
-  - component: {fileID: 1253971170}
-  m_Layer: 0
-  m_Name: 17 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1253971169
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253971168}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1087, y: 0, z: 0}
-  m_LocalScale: {x: 618.30725, y: 618.30725, z: 618.30725}
-  m_Children: []
-  m_Father: {fileID: 862938583}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1253971170
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253971168}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 6e2346508fe3a264984c6c020d82a70e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.56, y: 1.92}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1268805959
 GameObject:
   m_ObjectHideFlags: 0
@@ -4290,7 +4211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: _MainMenu
+  SceneName: Story5Day2
   ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
@@ -5038,7 +4959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Daisy
+  m_Text: Jayleen
 --- !u!222 &1535947625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5187,7 +5108,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Matt
+  m_Text: Mohammed
 --- !u!222 &1607896230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5273,6 +5194,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616945607}
   m_CullTransparentMesh: 0
+--- !u!1 &1626877454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1626877455}
+  - component: {fileID: 1626877456}
+  m_Layer: 0
+  m_Name: 12 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1626877455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626877454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1150, y: 0, z: 0}
+  m_LocalScale: {x: 665.69385, y: 665.69385, z: 665.69385}
+  m_Children: []
+  m_Father: {fileID: 862938583}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1626877456
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626877454}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 363bbea630d897a49b7f8f28d325920d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 1.92}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1627105192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,7 +5341,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Daisy
+  m_Text: Jayleen
 --- !u!222 &1627105195
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6721,17 +6721,56 @@ MonoBehaviour:
   convoSlotC_MessageData: []
   convoSlotC_MessageIndex: 0
   ConversationSlot1:
-  - "I know I haven\u2019t known you long but I thought I should tell you."
-  - " I\u2019m going to travel for a while. "
-  - Headed on a solo trip through Southeast Asia and then a few months in Europe.
-  - "Thanks for your support. I\u2019m excited to explore the world! "
+  - I have a problem.
+  - RESPONSE ONESTART What's up? ONEFIN TWOSTART Do you need help? TWOFIN THREESTART
+    How are you? THREEFIN
+  - "I\u2019ve been short on cash recently and have been looking to get a second job."
+  - "There\u2019s a job opening to be a cashier at Walmart,"
+  - 'but I hear the pay is awful and the managers are unfair and disorganized. '
+  - RESPONSE ONESTART That doesn't sound like a good idea. ONEFIN TWOSTART It would
+    be a good place to make extra money. TWOFIN THREESTART It sounds like it might
+    not be a good fit. THREEFIN
+  - Do you think I should do it? I can stick it out for about a year
+  - and I think it would be good to make some extra money.
   - CUSTOM
+  - "I think it would be helpful in the short-term, but I couldn\u2019t do it in the
+    long-term."
+  - "Besides, they\u2019re one of the only places that might hire me right now."
+  - "Most places can\u2019t look past my arrest history, even though I\u2019ve been
+    out of jail for a few years now. "
+  - RESPONSE ONESTART You should take the job. ONEFIN TWOSTART Maybe look at some
+    other options. TWOFIN THREESTART If you need the money, I'd consider it. THREEFIN
   ConversationSlot2:
-  - "I appreciate all your support. Moving in with my girlfriend is no longer an option
-    because she\u2019s in prison now."
-  - "RESPONSE ONESTART What happened? ONEFIN TWOSTART How's your recovery? TWOFIN
-    THREESTART  I knew there was something about your girlfriend\u2026 THREEFIN"
-  ConversationSlot3: []
+  - I GOT ENGAGED!!
+  - RESPONSE ONESTART Congratulations! ONEFIN TWOSTART I'm happy and excited for you!
+    TWOFIN THREESTART That's amazing news! THREEFIN
+  - "Thanks!! His name is Jason and we\u2019ve been together for six years! "
+  - "I\u2019m just so happy right now!"
+  - RESPONSE ONESTART You should be! ONEFIN TWOSTART When's the wedding? TWOFIN THREESTART
+    This is great! THREEFIN
+  - "The wedding likely won\u2019t be until November of next year, but keep a look
+    your for your invite! "
+  - RESPONSE ONESTART I will! ONEFIN TWOSTART That's exciting! TWOFIN THREESTART This
+    is so great for you! THREEFIN
+  ConversationSlot3:
+  - 'My son is moving back in with me. '
+  - "I know he\u2019s been sober for month, but would I be able to keep in contact
+    with you?"
+  - RESPONSE ONESTART Of course! ONEFIN TWOSTART That should be okay. TWOFIN THREESTART
+    Sure, anytime. THREEFIN
+  - Thanks, I would just feel more comfortable having someone to turn to in case anything
+    happens.
+  - You were so instrumental in his recovery and we both really appreciated it.
+  - RESPONSE ONESTART Are you worried something will happen? ONEFIN TWOSTART Has he
+    been using again? TWOFIN THREESTART Do you think there will be a problem? THREEFIN
+  - "Nothing has happened yet, but I know my son and I\u2019d like to be cautious."
+  - RESPONSE ONESTART Has he said anything to make you worried? ONEFIN TWOSTART Do
+    you trust your son to make good choices? TWOFIN THREESTART Do you think something
+    will happen? THREEFIN
+  - I trust that everything will be okay.
+  - "I\u2019m just looking out for him even more now that his two-year old daughter
+    is living with us as well. "
+  - CUSTOM
   realMessagesA: []
   realMessagesB: []
   realMessagesC: []

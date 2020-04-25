@@ -1466,7 +1466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Natasha
+  m_Text: Kimiko
 --- !u!222 &336553026
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1697,7 +1697,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Maria
+  m_Text: Doug
 --- !u!222 &445863365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3524,7 +3524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- September 30 -'
+  m_Text: '- November 3rd -'
 --- !u!222 &1093499347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3792,7 +3792,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Natasha
+  m_Text: Kimiko
 --- !u!222 &1158530816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4211,7 +4211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Story4Day2
+  SceneName: Story6Day2
   ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
@@ -4959,7 +4959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: William
+  m_Text: Brooklyn
 --- !u!222 &1535947625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5108,7 +5108,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Maria
+  m_Text: Doug
 --- !u!222 &1607896230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5341,7 +5341,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: William
+  m_Text: Brooklyn
 --- !u!222 &1627105195
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6721,39 +6721,47 @@ MonoBehaviour:
   convoSlotC_MessageData: []
   convoSlotC_MessageIndex: 0
   ConversationSlot1:
-  - Okay I relapsed. Again.
-  - "I know we\u2019ve talked about this before but what do I do??"
+  - Aight we gotta talk
+  - RESPONSE ONESTART Are you upset? ONEFIN  TWOSTART  What's going on? TWOFIN  THREESTART  No
+    we don't. THREEFIN
+  - "I don\u2019t think this 12 Step Recovery Plan is for me"
+  - "It\u2019s stupid."
+  - RESPONSE ONESTART What about it doesn't work for you? ONEFIN  TWOSTART  Are you
+    quitting the recovery plan? TWOFIN  THREESTART  What do you mean? THREEFIN
+  - "The whole thing just doesn\u2019t work. I don\u2019t know why you\u2019re making
+    me do this."
   - CUSTOM
-  - Is it alright if I call you to talk through this?
-  - RESPONSE ONESTART Not a problem, just give me a minute ONEFIN TWOSTART Sorry I'd
-    rather not TWOFIN THREESTART One moment, we can talk soon THREEFIN
-  - Okay thanks
-  - "I\u2019m really sorry again"
-  - "RESPONSE ONESTART Don\u2019t worry about it ONEFIN TWOSTART I know it\u2019s
-    hard but we\u2019ll talk through it TWOFIN THREESTART I know THREEFIN"
+  - "Honestly? I just don\u2019t believe in God like that. Or at least not that he
+    can help me."
+  - My case is hopeless.
+  - CUSTOM
+  - "Idk man, I\u2019ll keep trying but I don\u2019t feel like I\u2019m actually making
+    progress."
   ConversationSlot2:
-  - 'Been out of rehab for a week and I feel great! '
-  - "RESPONSE ONESTART That\u2019s fantastic! ONEFIN TWOSTART You should be proud
-    of yourself! TWOFIN THREESTART I'm so proud! THREEFIN"
-  - "Yeah it\u2019s been a rollercoaster but I\u2019m so happy to be out"
-  - This has been quite a journey and I wanted to thank you for helping me to the
-    end
-  - "RESPONSE ONESTART I\u2019m happy that I was able to help! ONEFIN TWOSTART How
-    do you feel? TWOFIN THREESTART Of course! THREEFIN"
-  - "I feel like I\u2019ve finally got to the top of a mountain after a LONG hike
-    haha"
-  ConversationSlot3:
-  - 'Hey weird question. '
-  - "There\u2019s a new manager position open at work and I\u2019m thinking about
-    applying. "
-  - "But I\u2019m worried that they\u2019ll find out about my past addictions and
-    use that as a reason not to hire me."
-  - Are they allowed to use that as a reason not to give me the position?
+  - "They\u2019re letting me out of prison early. I\u2019ll be out next week."
+  - RESPONSE ONESTART That's great! ONEFIN  TWOSTART  How do you feel about that?
+    TWOFIN  THREESTART  That's good to hear. THREEFIN
+  - "I know I should be excited, but I\u2019m scared."
+  - "Prison has been a blessing in disguise. I haven\u2019t been near heroin, and
+    for once in my life"
+  - "I was actually sober for a long period of time. Now I\u2019m ruined that will
+    all be gone once I leave."
   - CUSTOM
-  - "I\u2019m not sure who to talk to within the company about that."
-  - RESPONSE ONESTART Go straight to HR ONEFIN TWOSTART Just ask a trusted manager
-    TWOFIN THREESTART Rant to a coworker THREEFIN
-  - "Yeah I\u2019ll figure it out"
+  - "I\u2019m just very aware of the fact that a lot of people overdose shortly after
+    they get released from prison."
+  - "I don\u2019t want to be another statistic. "
+  - CUSTOM
+  - It's scary.
+  ConversationSlot3:
+  - "My parents aren\u2019t speaking to me. They think my drinking is still out of
+    hand.  "
+  - RESPONSE ONESTART Is it? ONEFIN  TWOSTART  Do you think your drinking is out of
+    hand? TWOFIN  THREESTART  Have you spoken to them at all? THREEFIN
+  - "Well alcoholism doesn\u2019t just disappear overnight. "
+  - "I\u2019m doing my best, but I guess my best isn\u2019t good enough for them just
+    yet."
+  - CUSTOM
+  - "I\u2019ll try to talk to them again tomorrow."
   realMessagesA: []
   realMessagesB: []
   realMessagesC: []

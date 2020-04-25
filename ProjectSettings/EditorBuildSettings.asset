@@ -15,14 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Story2Select.unity
     guid: 43d95a10611ff9a47a725bf284749f45
   - enabled: 1
-    path: Assets/Scenes/Story3Select.unity
+    path: Assets/Scenes/Story4Select.unity
     guid: 8dcff8bc68aefde4abb415546c474f8c
   - enabled: 1
     path: Assets/Scenes/_StorySelect.unity
     guid: 6f39c04f882963643afabe34fca0aec5
-  - enabled: 1
-    path: Assets/Scenes/TestSceneOne.unity
-    guid: cd055f26510b4994fb54f1f886cda203
   - enabled: 1
     path: Assets/Scenes/Story 1/Story1Day1.unity
     guid: b8f2a1e037965b846b8a93eb8eddd93a
@@ -51,8 +48,74 @@ EditorBuildSettings:
     path: Assets/Scenes/Story 2/Story2Day2.unity
     guid: 5687d9183475eaa4c91c8c5c165d6316
   - enabled: 1
+    path: Assets/Scenes/Story 4/Story4Day1.unity
+    guid: 5bc606c4e4d569241affca5c4bf307d6
+  - enabled: 1
+    path: Assets/Scenes/Story 4/Story4Day2.unity
+    guid: cf669c2b0b17d6c48b3863ec25f6e524
+  - enabled: 1
+    path: Assets/Scenes/Story 4/Story4Day3.unity
+    guid: 260dc330cea4d564f9cf08e0029078d9
+  - enabled: 1
+    path: Assets/Scenes/Story 4/Story4Day4.unity
+    guid: e0505e4491d5adb488b0051fd7712d4e
+  - enabled: 1
+    path: Assets/Scenes/Story 4/Story4Day5.unity
+    guid: f39f3e490b73eee4bafea14c94631e87
+  - enabled: 1
+    path: Assets/Scenes/Story 4/Story4Day6.unity
+    guid: 4f522931c9ab7bb4cab4a3d8d5e16183
+  - enabled: 1
+    path: Assets/Scenes/Story 4/Story4Day7.unity
+    guid: 6a8b73ca4f6facf42a5919bb3f8634ff
+  - enabled: 1
     path: Assets/Scenes/Story 2/Story2Day3.unity
     guid: ddcefc9f1698ae54686da615576a8f43
+  - enabled: 1
+    path: Assets/Scenes/Story 5/Story5Day1.unity
+    guid: d562f861ba0dcc24badfc531187f64c9
+  - enabled: 1
+    path: Assets/Scenes/Story 5/Story5Day2.unity
+    guid: aeb209cf4bb86aa43bea83c9d04ba4c8
+  - enabled: 1
+    path: Assets/Scenes/Story 5/Story5Day3.unity
+    guid: 1b6f473320808894fb7ee9dd8c0ad44b
+  - enabled: 1
+    path: Assets/Scenes/Story 5/Story5Day4.unity
+    guid: a5afd216a5111eb4d8d2918bcf2f5a18
+  - enabled: 1
+    path: Assets/Scenes/Story 5/Story5Day5.unity
+    guid: bc835508de919bb46bf81b77f1b2f03a
+  - enabled: 1
+    path: Assets/Scenes/Story 5/Story5Day6.unity
+    guid: 17aa233d3d771aa4ba497b1416d14713
+  - enabled: 1
+    path: Assets/Scenes/Story 5/Story5Day7.unity
+    guid: 64ac75b480e98f74fa2291377809fdd5
+  - enabled: 1
+    path: Assets/Scenes/Story 6/Story6Day1.unity
+    guid: 43a1872bc8eebe143bbbf9a7b1418661
+  - enabled: 1
+    path: Assets/Scenes/Story 6/Story6Day2.unity
+    guid: 49a1ee1207c395846bd62f17bcc3c657
+  - enabled: 1
+    path: Assets/Scenes/Story 6/Story6Day3.unity
+    guid: c44c730c277293b4ea746ce4d8feecd9
+  - enabled: 1
+    path: Assets/Scenes/Story 6/Story6Day4.unity
+    guid: db525a59d6edf6a4cb0740aeef1202e3
+  - enabled: 1
+    path: Assets/Scenes/_Instructions.unity
+    guid: 09f395657ac9ddc4ea7f95284359111b
+  - enabled: 1
+    path: Assets/Scenes/Story3Select.unity
+    guid: 8a9c61b6ab52159409d2a8d513c2c604
+  - enabled: 1
+    path: Assets/Scenes/Story5Select.unity
+    guid: 2fe628520aff7d445ac01f0eeeeaa0ef
+  - enabled: 1
+    path: Assets/Scenes/Story6Select.unity
+    guid: 4ea99e8750fe5ec4ab6b5da785aa143a
   - enabled: 1
     path: Assets/Scenes/_Credits.unity
     guid: e16b27f421200934895a78c954999242
