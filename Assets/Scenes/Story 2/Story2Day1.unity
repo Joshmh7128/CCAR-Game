@@ -6728,7 +6728,8 @@ MonoBehaviour:
     coach at CCAR THREEFIN"
   - "I don\u2019t need any help I\u2019m fine."
   - RESPONSE ONESTART You overdosed this evening. ONEFIN TWOSTART Your mother found
-    you on the bathroom floor. TWOFIN THREESTART You were found seriously hurt. THREEFIN
+    you on the bathroom floor. TWOFIN THREESTART you were in bad shape when they found
+    youTHREEFIN
   - "Yeah so what. I told you I don\u2019t need any help."
   - 'CUSTOM '
   - "There\u2019s nothing you can do for me anyways."
@@ -6737,7 +6738,7 @@ MonoBehaviour:
   ConversationSlot2:
   - I need you to help me quit smoking.
   - "RESPONSE ONESTART How can I help you quit smoking? ONEFIN TWOSTART I only help
-    people with real addictions. TWOFIN THREESTART here\u2019s no need for you to
+    people with real addictions. TWOFIN THREESTART There\u2019s no need for you to
     quit smoking now. It\u2019s too early in your recovery. THREEFIN"
   - "Dude I don\u2019t know where to start."
   - "RESPONSE ONESTART Let me guide you towards some resources. ONEFIN TWOSTART Listen,

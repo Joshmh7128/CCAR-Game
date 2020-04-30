@@ -4211,7 +4211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Story5Day2
+  SceneName: Story6Day3
   ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
@@ -6738,9 +6738,9 @@ MonoBehaviour:
   - It seems so dumb because, naturally, I should be able to just say no.
   - "But it\u2019s just not that easy."
   - RESPONSE ONESTART Just stick with trusted friends and family. ONEFIN  TWOSTART  Join
-    a sober house. TWOFIN  THREESTART  Do you best. THREEFIN
-  - "I wish I could just do that. There\u2019s nothing specific I\u2019m afraid of,
-    it\u2019s just the thought of being free again that I don\u2019t want to affect
+    a sober house. TWOFIN  THREESTART  Do your best. THREEFIN
+  - "I wish I could just do that. There\u2019s nothing specific I\u2019m afraid of"
+  - "It\u2019s just the thought of being free again that I don\u2019t want to affect
     me."
   - RESPONSE ONESTART You're going to be okay. ONEFIN  TWOSTART  Keep in touch with
     me and we'll work together. TWOFIN  THREESTART  You can get through this. THREEFIN

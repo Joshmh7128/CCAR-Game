@@ -6724,7 +6724,7 @@ MonoBehaviour:
   - 'I think I might have to go back to my old sober house. '
   - "I thought I was okay to leave before, but I\u2019m second-guessing myself."
   - CUSTOM
-  - "Yeah you\u2019re right, sorry"
+  - I'm not sure, sorry
   ConversationSlot2:
   - "Dude, I\u2019m throwing another party this weekend, you should come through "
   - "RESPONSE ONESTART I\u2019m sorry I can\u2019t ONEFIN TWOSTART You shouldn\u2019t

@@ -6726,7 +6726,8 @@ MonoBehaviour:
     You're welcome! THREEFIN
   - I think I want to go to detox.
   - RESPONSE ONESTART I think that's a good idea for you. ONEFIN TWOSTART Yes, you
-    definitely should. TWOFIN THREESTART That sounds like a good choice. THREEFIN
+    definitely should. TWOFIN THREESTART What led you to make that choice? THREEFIN
+  - It's hard.
   - Is the recovery process always supposed to be this tough?
   - CUSTOM
   - What was it like for you?

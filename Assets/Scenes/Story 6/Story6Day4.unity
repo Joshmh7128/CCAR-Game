@@ -1466,7 +1466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Kimiko
+  m_Text: Brooklyn
 --- !u!222 &336553026
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3792,7 +3792,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Kimiko
+  m_Text: Brooklyn
 --- !u!222 &1158530816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4211,7 +4211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Story5Day2
+  SceneName: _MainMenu
   ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
@@ -4959,7 +4959,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Brooklyn
+  m_Text: 'Kimiko
+
+'
 --- !u!222 &1535947625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5341,7 +5343,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Brooklyn
+  m_Text: Kimiko
 --- !u!222 &1627105195
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6752,6 +6754,7 @@ MonoBehaviour:
     going for jogs every day."
   - "Thanks for your support in my transition out of prison, and I\u2019ll keep in
     touch in case I need anything."
+  - CUSTOM
   - CUSTOM
   realMessagesA: []
   realMessagesB: []

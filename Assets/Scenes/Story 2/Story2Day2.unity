@@ -6726,7 +6726,7 @@ MonoBehaviour:
     to talk to me before. What changed? TWOFIN THREESTART Sorry, I'm a bit confused.
     THREEFIN"
   - "I thought you\u2019re supposed to cure me or something."
-  - "If you don\u2019t do that, what do you do, Mr. \u201CRecovery Coach\u201D?"
+  - "If you don\u2019t do that, what do you do, oh wise Recovery Coach?"
   - "RESPONSE ONESTART My job is to guide you through the recovery process. But I\u2019m
     not going to force you to do anything if you don\u2019t want help. ONEFIN TWOSTART
     My job is to guide you through the recovery process. But I\u2019m not going to
@@ -6755,8 +6755,8 @@ MonoBehaviour:
   - "They\u2019ve at least calmed down although I\u2019m not sure they\u2019re convinced
     I\u2019ll be okay. "
   - "RESPONSE ONESTART You should talk to them about this. ONEFIN TWOSTART Let me
-    know if you\u2019d like me to speak with them. TWOFIN THREESTART You should talk
-    to them, communication is healthy. THREEFIN"
+    know if you\u2019d like me to speak with them. TWOFIN THREESTART Definitely keep
+    communicating with them THREEFIN"
   - "Thanks but I\u2019ll figure it out."
   realMessagesA: []
   realMessagesB: []

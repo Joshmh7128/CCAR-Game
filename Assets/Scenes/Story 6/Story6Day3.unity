@@ -4211,7 +4211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Story5Day2
+  SceneName: Story6Day4
   ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
@@ -6736,7 +6736,7 @@ MonoBehaviour:
   - "It wasn\u2019t much, and we didn\u2019t have much of a conversation after that,
     but it was something at least."
   - RESPONSE ONESTART That's progress! ONEFIN  TWOSTART  Do you think she will start
-    speaking to you again? TWOFIN  THREESTART  That's a step in teh right direction!
+    speaking to you again? TWOFIN  THREESTART  That's a step in the right direction!
     THREEFIN
   - "It made me feel good that she hasn\u2019t completely forgotten about me. I just
     hope I hear from her again."

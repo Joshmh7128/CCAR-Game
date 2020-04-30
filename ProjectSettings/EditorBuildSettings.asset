@@ -87,10 +87,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Story 5/Story5Day5.unity
     guid: bc835508de919bb46bf81b77f1b2f03a
   - enabled: 1
-    path: Assets/Scenes/Story 5/Story5Day6.unity
+    path: Assets/Scenes/Story 5/Story5Day7.unity
     guid: 17aa233d3d771aa4ba497b1416d14713
   - enabled: 1
-    path: Assets/Scenes/Story 5/Story5Day7.unity
+    path: Assets/Scenes/Story 5/Story5Day6.unity
     guid: 64ac75b480e98f74fa2291377809fdd5
   - enabled: 1
     path: Assets/Scenes/Story 6/Story6Day1.unity

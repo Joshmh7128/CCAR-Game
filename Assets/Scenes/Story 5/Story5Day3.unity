@@ -6740,14 +6740,14 @@ MonoBehaviour:
   - RESPONSE ONESTART Has he expressed any concerns about this to you? ONEFIN  TWOSTART  Have
     you both talked about this? TWOFIN  THREESTART  Did you share you concerns? THREEFIN
   - "He hasn\u2019t mentioned any of this, and reassures me that he loves me no matter
-    what whenever my history comes up in conversation. "
-  - "But I\u2019ve just been worried because things are different in a marriage, right?
-    What if he suddenly thinks I\u2019m not worth it anymore?"
+    what whenever we talk about it"
+  - "But I\u2019ve just been worried because things are different in a marriage, right? "
+  - "What if he suddenly thinks I\u2019m not worth it anymore?"
   - CUSTOM
   - "I haven\u2019t been using, and I haven\u2019t even thought about it at all honestly. "
   - "RESPONSE ONESTART If you\u2019re really worried just talk to him. ONEFIN  TWOSTART
     \  It\u2019s normal to feel insecure about these things, but your fianc\xE9 sounds
-    as though he really loves you. TWOFIN  THREESTART  Ya\u2019ll need couples counseling.
+    as though he really loves you. TWOFIN  THREESTART  Y'all need couples counseling.
     THREEFIN"
   - "Sorry I just needed to talk through it. And I\u2019ll talk to him, thanks for
     your help."

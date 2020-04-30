@@ -6736,7 +6736,7 @@ MonoBehaviour:
   - RESPONSE ONESTART What happened? ONEFIN TWOSTART Are you okay? TWOFIN THREESTART
     Is everything alright? THREEFIN
   - Overdosed again.
-  - "Don\u2019t come over I\u2019m not proud of this."
+  - "Don\u2019t come over. I\u2019m not proud of this."
   - Just thought you should know. I failed again.
   - CUSTOM
   ConversationSlot3:
@@ -6748,8 +6748,8 @@ MonoBehaviour:
     Awesome! THREEFIN
   - Yeah it was a great experience.
   - "I\u2019ll tell you more after my doctor\u2019s appointment in a few minutes sorry."
-  - RESPONSE ONESTART No worries, is everything alright? ONEFIN TWOSTART Okay, are
-    you alright? TWOFIN THREESTART Sounds good. Everything alright? THREEFIN
+  - RESPONSE ONESTART No worries! Everything okay? ONEFIN TWOSTART Okay, are you alright?
+    TWOFIN THREESTART Sounds good THREEFIN
   - Yeah
   realMessagesA: []
   realMessagesB: []

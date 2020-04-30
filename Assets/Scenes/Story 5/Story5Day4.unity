@@ -4211,7 +4211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: Story5Day4
+  SceneName: Story5Day5
   ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
@@ -6733,8 +6733,9 @@ MonoBehaviour:
   - RESPONSE ONESTART How did your talk with your fiance go? ONEFIN  TWOSTART  Did
     you talk to Jason? TWOFIN  THREESTART  How are you doing? THREEFIN
   - Thanks for your help the other day.
-  - "You were right, I was just feeling insecure and Jason reassured me that being
-    married wouldn\u2019t change how he feels about me or my past."
+  - 'You were right, I was just feeling insecure and Jason reassured me that being
+    married '
+  - "wouldn\u2019t change how he feels about me or my past."
   - RESPONSE ONESTART I'm glad you were able to work it out! ONEFIN  TWOSTART  I'm
     happy you can move forward. TWOFIN  THREESTART  That's good news. THREEFIN
   ConversationSlot3: []

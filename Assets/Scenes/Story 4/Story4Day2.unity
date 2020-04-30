@@ -6722,8 +6722,7 @@ MonoBehaviour:
   convoSlotC_MessageIndex: 0
   ConversationSlot1: []
   ConversationSlot2:
-  - "My friends are throwing me a \u201Cgood job getting through rehab\u201D party
-    this weekend."
+  - My friends are throwing me a ''good job getting through rehab'' party this weekend.
   - " You\u2019re welcome to come if you\u2019d like."
   - CUSTOM
   - Cool man

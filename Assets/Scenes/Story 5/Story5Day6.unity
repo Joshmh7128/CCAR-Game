@@ -257,7 +257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Story Complete. Return to Main Menu.
+  m_Text: Proceed to Next Day
 --- !u!222 &93423398
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -719,7 +719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 303}
+  m_AnchoredPosition: {x: 0, y: 1042}
   m_SizeDelta: {x: 581.6, y: 97.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181222444
@@ -3187,7 +3187,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1023}
+  m_AnchoredPosition: {x: 0, y: 335}
   m_SizeDelta: {x: 581.6, y: 97.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &964107043
@@ -3524,7 +3524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- October 29 -'
+  m_Text: '- October 27 -'
 --- !u!222 &1093499347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4211,7 +4211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff3f5447c4ace22438b9b371d53f8d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: _MainMenu
+  SceneName: Story5Day7
   ourButton: {fileID: 1268805961}
 --- !u!1 &1281284746
 GameObject:
@@ -6720,16 +6720,16 @@ MonoBehaviour:
   convoSlotC: 2
   convoSlotC_MessageData: []
   convoSlotC_MessageIndex: 0
-  ConversationSlot1:
-  - Today is my first day of training as a bartender.
-  - "I know it\u2019s a weird career move given my past alcoholism, I think it will
-    only make me stronger and"
-  - ' more confident.  Besides, I need the money.'
-  - "I\u2019ll be here if you want to keep in touch, but you can\u2019t change my
-    mind about this job."
-  - RESPONSE ONESTART I'm here if you need me. ONEFIN  TWOSTART  You should still
-    reconsider. TWOFIN  THREESTART  You can do it. THREEFIN
-  ConversationSlot2: []
+  ConversationSlot1: []
+  ConversationSlot2:
+  - 'We set a date for the wedding: November 29 of next year!'
+  - "We\u2019re not sending out invites just yet, but I just wanted to say thank you
+    for your support over the years and for helping me even with non-addiction problems."
+  - RESPONSE ONESTART I'm always here for you! ONEFIN  TWOSTART  Let me know if you
+    need anything! TWOFIN  THREESTART  It's my job. THREEFIN
+  - Am I allowed to send you a wedding invite?
+  - CUSTOM
+  - "Cool, I\u2019ll be in touch then!"
   ConversationSlot3: []
   realMessagesA: []
   realMessagesB: []

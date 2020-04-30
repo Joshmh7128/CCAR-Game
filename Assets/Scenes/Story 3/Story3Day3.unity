@@ -6726,7 +6726,7 @@ MonoBehaviour:
   ConversationSlot2:
   - "What\u2019s the name of that group you recommended to me a while back?"
   - CUSTOM
-  - "Yes! That\u2019s the one, thank you."
+  - Oh I remember now, thank you.
   - "I\u2019m moving back in with Tanya btw. "
   - "I don\u2019t care that you don\u2019t like her. I love her and I\u2019m doing
     it."
@@ -6734,7 +6734,6 @@ MonoBehaviour:
     shouldn\u2019t. She could trigger you again. TWOFIN THREESTART As long as you\u2019re
     sure. THREEFIN"
   ConversationSlot3:
-  - '*PHOTO*'
   - Got a new puppy!
   - RESPONSE ONESTART Great! ONEFIN TWOSTART Wonderful! TWOFIN THREESTART Are you
     sure you're ready to take on that responsibility? THREEFIN

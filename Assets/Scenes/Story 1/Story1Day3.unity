@@ -6735,6 +6735,7 @@ MonoBehaviour:
   - CUSTOM
   - "Hi this is Robert\u2019s brother. My family and I haven\u2019t heard from him
     in two weeks. Do you know where he is?"
+  - "We found his phone but we don\u2019t know where he is."
   - CUSTOM
   realMessagesA: []
   realMessagesB: []

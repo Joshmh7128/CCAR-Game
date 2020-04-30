@@ -6751,7 +6751,6 @@ MonoBehaviour:
   - "RESPONSE ONESTART Don\u2019t give me the credit for your journey. Congrats, man!
     ONEFIN TWOSTART  I\u2019m glad I could be there for you.  TWOFIN THREESTART I'm
     so proud of you, good job. THREEFIN"
-  - '*SENDS PHOTO*'
   realMessagesA: []
   realMessagesB: []
   realMessagesC: []

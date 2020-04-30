@@ -6731,8 +6731,8 @@ MonoBehaviour:
   - "The whole thing just doesn\u2019t work. I don\u2019t know why you\u2019re making
     me do this."
   - CUSTOM
-  - "Honestly? I just don\u2019t believe in God like that. Or at least not that he
-    can help me."
+  - "I just don\u2019t believe in God like that. Or at least not that he can help
+    me."
   - My case is hopeless.
   - CUSTOM
   - "Idk man, I\u2019ll keep trying but I don\u2019t feel like I\u2019m actually making
@@ -6741,7 +6741,7 @@ MonoBehaviour:
   - "They\u2019re letting me out of prison early. I\u2019ll be out next week."
   - RESPONSE ONESTART That's great! ONEFIN  TWOSTART  How do you feel about that?
     TWOFIN  THREESTART  That's good to hear. THREEFIN
-  - "I know I should be excited, but I\u2019m scared."
+  - "I know I should be excited, but I\u2019m worried."
   - "Prison has been a blessing in disguise. I haven\u2019t been near heroin, and
     for once in my life"
   - "I was actually sober for a long period of time. Now I\u2019m ruined that will
